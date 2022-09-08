@@ -1,0 +1,29 @@
+.carrusel{
+    width: 90%;
+    max-width: 120em;
+    background-color: aqua;
+}
+.carrusel .grande{
+    width: 200%;
+    background-color: blueviolet;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carrusel .img{
+    width: calc(100%);
+    background-color: green;
+}
+.carrusel .puntos{
+    width: 100%;
+    background-color: red;
+    padding: 1em;
+
+}
+.carrusel .punto{
+    width: 1em;
+    height: 1em;
+    background-color: yellow;
+}
